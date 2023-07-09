@@ -1,6 +1,6 @@
 # Curso de python
 
-todo lo que contiene este repositorio son las practicas del curso en youtube del canal de puldoras informaticas que yo te visto y trascito apra aprender sobre el lenguaje python.
+Todo lo que contiene este repositorio son las practicas del curso en youtube del canal de pildoras informaticas que yo te visto y transcrito para aprender sobre el lenguaje python.
 
 ```
 1. Introducción.
@@ -11,8 +11,10 @@ todo lo que contiene este repositorio son las practicas del curso en youtube del
 6. Tuplas.
 7. Diccionarios.
 8. Condicionales IF  IFELSE.
-9. Bucles FOR.
-10. .
-11. .
+9. Concatenar Operadores.
+10. Bucles FOR.
+11. Bucles WHILE.
+12. .
+13. .
 
 ```

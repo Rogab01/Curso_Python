@@ -1,6 +1,6 @@
 edad = 7
 
-if 0 < edad < 100:
+if 0 < edad < 100:  # concatenacion de operador
     print("Edad es correcta")
 else:
     print("Edad Incorrecta")
@@ -39,6 +39,7 @@ print(numero_hermanos)
 sali_familiar = int(input("Introduce el salario Bruto: "))
 print(sali_familiar)
 
+# operador logico AND y OR
 if distancia_escuala > 40 and numero_hermanos > 2 or sali_familiar <= 20000:
     print("Tienes derecho a Beca")
 else:
@@ -53,7 +54,8 @@ opcion = input("Escribe la asignatura escogida: ")
 
 asignatura = opcion.lower()
 
+# operador logico IN
 if asignatura in ("informatica grafica", "pruebas de software", "usabilidad y accesibilidad"):
     print("Asignatura elegida: " + asignatura)
 else:
-    print("La asignatura escogidano esta permitida")
+    print("La asignatura escogida no esta permitida")
