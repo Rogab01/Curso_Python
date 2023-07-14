@@ -9,6 +9,15 @@ nombre = "Pildoras Informaticas"
 
 cont = 0
 for i in nombre:
+    if i == " ":
+        continue
     cont += 1
 
-print(len(nombre))
+
+print(cont)
+
+
+# ejemplo de usar PASS
+
+class Miclase:
+    pass  # clase creada para implementar despues

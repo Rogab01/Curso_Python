@@ -1,6 +1,6 @@
-# Curso de python
+# Curso de Python
 
-Todo lo que contiene este repositorio son las practicas del curso en youtube del canal de pildoras informaticas que yo te visto y transcrito para aprender sobre el lenguaje python.
+Todo lo que contiene este repositorio son las practicas del curso en youtube del canal de pildoras informaticas que yo he visto y transcrito para aprender sobre el lenguaje python.
 
 ```
 1. Introducción.
@@ -14,7 +14,7 @@ Todo lo que contiene este repositorio son las practicas del curso en youtube del
 9. Concatenar Operadores.
 10. Bucles FOR.
 11. Bucles WHILE.
-12. .
-13. .
+12. Generadores (yeld, yeld from).
+13. Captura de Excepciones (try except).
 
 ```

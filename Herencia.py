@@ -6,16 +6,16 @@ class Vehiculo:
         self.acelera = False
         self.frena = False
 
-    def Arrancar(self):
+    def arrancar(self):
         self.enmarcha = True
 
-    def Acelerar(self):
+    def acelerar(self):
         self.acelera = True
 
-    def Frenar(self):
+    def frenar(self):
         self.frena = True
 
-    def Estado(self):
+    def estado(self):
         print(
             "Marca: ",
             self.marca,
@@ -32,7 +32,7 @@ class Vehiculo:
 
 # fin de clase
 class Furgoneta(Vehiculo):
-    def Carga(self, cargar):
+    def carga(self, cargar):
         self.cargado = cargar
         if self.cargado:
             return "La furgoneta esta cargada"
@@ -44,10 +44,10 @@ class Furgoneta(Vehiculo):
 class Moto(Vehiculo):
     hcaballito = ""
 
-    def Caballito(self):
+    def caballito(self):
         self.hcaballito = "Voy haciendo el caballito"
 
-    def Estado(self):
+    def estado(self):
         print(
             "Marca: ",
             self.marca,
@@ -65,27 +65,28 @@ class Moto(Vehiculo):
 
 
 # fin de clase
-class Velectricos:
+class VElectricos:
     def __init__(self):
         self.autonomia = 100
 
-    def CargarEnergia(self):
+    def cargarEnergia(self):
         self.cargando = True
 
 
 miMoto = Moto("Honda", "CBR")
-miMoto.Caballito()
-miMoto.Estado()
+miMoto.caballito()
+miMoto.estado()
+
 print("********* furgoneta *********")
 miFurgoneta = Furgoneta("Renault", "Kango")
-miFurgoneta.Arrancar()
-miFurgoneta.Estado()
-print(miFurgoneta.Carga(True))
+miFurgoneta.arrancar()
+miFurgoneta.estado()
+print(miFurgoneta.carga(True))
 
 
-class BiciElectrica(Velectricos, Vehiculo):
+class BiciElectrica(VElectricos, Vehiculo):
     pass
 
 
 miBici = BiciElectrica()
-miBici.Estado()
+miBici.estado()

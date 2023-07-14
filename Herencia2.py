@@ -77,6 +77,7 @@ class BiciElectrica(Velectricos, Vehiculo):
     pass
 
 
+print("********* Bici Electrica *********")
 miBici = BiciElectrica()
 
 miBici.Estado()
