@@ -16,5 +16,10 @@ Todo lo que contiene este repositorio son las practicas del curso en youtube del
 11. Bucles WHILE.
 12. Generadores (yeld, yeld from).
 13. Captura de Excepciones (try except).
+14. Herencia, Herencia simple y compuesta.
+15. Polimorfismo.
+16. Metodos de los String - Cadenas de texto
+17. Modulos
+18. Paquetes - paquetes distribuidos.
 
 ```

@@ -26,6 +26,5 @@ miVehiculo2.desplazamiento()
 miVehiculo3 = Camion()
 miVehiculo3.desplazamiento()
 
-
-miVehiculo4 = Camion()
+miVehiculo4 = Moto()
 desplazamientoVehiculo(miVehiculo4)

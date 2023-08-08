@@ -48,8 +48,9 @@ class Moto(Vehiculo):
 # fin de clase
 
 
-class Velectricos():
-    def __init__(self):
+class Velectricos(Vehiculo):
+    def __init__(self, marca, modelo):
+        super().__init__(marca, modelo)
         self.autonomia = 100
 
     def CargarEnergia(self):
@@ -78,6 +79,6 @@ class BiciElectrica(Velectricos, Vehiculo):
 
 
 print("********* Bici Electrica *********")
-miBici = BiciElectrica()
+miBici = BiciElectrica("Orbea", "VVO")
 
 miBici.Estado()

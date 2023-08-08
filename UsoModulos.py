@@ -1,22 +1,22 @@
+from Calculos.Redondeo_Potencia.Redondea_Potencia import Potencia
+from Calculos.Basicos.OperacionesBasicas import Sumar
 from Calculos.CalculosGenerales import *
 
-Sumar(7,5)
+Sumar(4, 6)
 
-Restar(7,5)
+Restar(7, 5)
 
-Potencia(7,5)
+Potencia(4, 6)
 
 Redondear(4.5)
 
 
-print ("*******************modulo*****************************")
+print("**********************modulo********************************")
 
-from Calculos.Basicos.OperacionesBasicas import Sumar
 
-Sumar(7,5)
+Sumar(7, 5)
 
-print ("********************paquete - modulos****************************")
+print("********************paquete - modulos****************************")
 
-from Calculos.Redondeo_Potencia.Redondea_Potencia import Potencia
 
-Potencia(7,5)
+Potencia(7, 5)
